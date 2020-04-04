@@ -4,7 +4,7 @@ export default function ListItem(_props){
   var props     = _props || {},
       title     = props.title || '',
       isParent  = props.isParent || false,
-      isActive  = props.isActive || true,
+      isActive  = props.isActive,
       iconClass = isActive ? 'open' : '',
       onClick   = props.onClick;
 
