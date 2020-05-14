@@ -16,6 +16,9 @@ ul > li {
 ul li {
   padding: 0.5em 0;
 }
+ul li.show {
+  padding: 0.5em 0;
+}
 ul li a.toggle {
   color: #255b89;
   width: 100%;
